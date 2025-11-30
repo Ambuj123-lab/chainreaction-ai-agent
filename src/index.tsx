@@ -324,7 +324,7 @@ const ChainReactionApp: React.FC = () => {
             </div>
           </div>
 
-          <h1 className="text-6xl md:text-8xl font-extrabold tracking-tighter mb-8 text-white whitespace-nowrap">
+          <h1 className="text-4xl md:text-6xl lg:text-8xl font-extrabold tracking-tighter mb-8 text-white">
             CHAIN REACTION
           </h1>
 
@@ -370,7 +370,7 @@ const ChainReactionApp: React.FC = () => {
         </div>
       </nav>
 
-      <main className="max-w-5xl mx-auto px-6 py-16 relative z-10">
+      <main className="max-w-5xl mx-auto px-4 md:px-6 py-8 md:py-16 relative z-10">
 
         {/* PRESET SELECTOR (Tabs) */}
         <div className="flex border-b border-zinc-800 mb-12">

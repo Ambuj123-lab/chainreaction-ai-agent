@@ -1,0 +1,35 @@
+# Environment variables (CRITICAL - prevents API key leaks)
+.env
+.env.local
+.env*.local
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+build/
+.vite/
+
+# Debug scripts (contain API info)
+check_exports.cjs
+list_models.mjs
+debug_api.mjs
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+logs/og

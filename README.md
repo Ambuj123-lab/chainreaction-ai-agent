@@ -33,6 +33,10 @@ Each agent processes the output of the previous one, creating a **chain reaction
 
 ---
 
+## 🎯 Demo
+
+Try the live demo: https://chainreaction-agent.onrender.com/
+
 ## ✨ Features
 
 - 🤖 **Three-Stage Agent Pipeline** - Logic → Adversarial → Synthesis
